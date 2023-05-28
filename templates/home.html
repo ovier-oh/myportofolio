@@ -1,0 +1,82 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="titulo1">
+    <h1>My Portfolio</h1>
+    <h2>by</h2>
+    <h2>Ovier Obregon H.</h2>
+</div>
+<section class="pstate">
+    <h2 class="titulo2">Personal Statement</h2>
+    <p>
+        I am  a Master in semiconductor devices, and I am studying my PhD in semiconductor devices, I study about flexible 
+        electronics and the fabrication process at low temperature for their application in different areas such as health 
+        care, (computational) computer systems, e-textil, and displays. I have a degree in engineering from (institute technology) 
+        the Technological Institute of Tlalnepantla. I have a certificate in Programming in Python language (data science, machine 
+        learning). I am independent, honest, creative and flexible at work. I think that one of my best qualities is to be curious 
+        because I always try to learn new things.
+    </p>
+</section>
+<section class="imagenes">
+    <div class="titulo2">
+        <h2>Lines Research</h2>
+    </div>
+    <div class="figure" id="img1">
+        <center><h3>Flexible Electronic</h3><img id="format" src="{{ user_image }}" alt="Mike" height="240px" width="300px"></center>
+    </div>
+    <div class="figure">
+        <center><h3>Design Electronic Circuits</h3><img id="format" src="{{ user_image1 }}" alt="Mike" height="240px" width="300px"></center>
+    </div>
+    <div class="figure">
+        <center><h3>Solution Process</h3><img id="format" src="{{ user_image2 }}" alt="Mike" height="240px" width="300px"></center>
+    </div>
+    <div class="figure">
+        <center><h3>Metallic Oxides</h3><img id="format" src="{{ user_image3 }}" alt="Mike" height="240px" width="300px"></center>
+    </div>   
+    <div class="figure">
+        <center><h3>Programming</h3><img id="format" src="{{ user_image4 }}" alt="Mike" height="240px" width="300px"></center>
+    </div>      
+</section>
+
+<section class="imagenes">
+    <h2 class="titulo2">Technologies</h2>
+    <div class="figure" id="img1">
+        <center><img  src="{{ user_icon1 }}" height="150px" width="150px"></center>
+    </div>
+    <div class="figure">
+        <center><img id="format" src="{{ user_icon2 }}" height="150px" width="150px"></center>
+    </div>
+    <div class="figure">
+        <center><img id="format" src="{{ user_icon3 }}" height=150px" width="150px"></center>
+    </div>
+    <div class="figure">
+        <center><img id="format" src="{{ user_icon4 }}" height="150px" width="150px"></center>
+    </div>
+    <div class="figure">
+        <center><img id="format" src="{{ user_icon5 }}" height="150px" width="150px"></center>
+    </div>
+    <div class="figure">
+        <center><img id="format" src="{{ user_icon6 }}" height="150px" width="150px"></center>
+    </div>
+    <div class="figure">
+        <center><img id="format" src="{{ user_icon7 }}" height="150px" width="150px"></center>
+    </div>
+    <div class="figure">
+        <center><img id="format" src="{{ user_icon8 }}" height="150px" width="150px"></center>
+    </div>
+    <div class="figure">
+        <center><img id="format" src="{{ user_icon9 }}" height="150px" width="150px"></center>
+    </div>
+</section>
+
+<footer>
+    <div class="piedepagina">
+        <p>&copy; 2023 Derechos Reservados</p>
+        <a href="<p>Researchgate</p> ">Researgate</a>
+        <a href="https://github.com/ovier-oh">Github</a>
+        <a href="https://twitter.com/Mr_Ovier">Twitter</a>
+    </div>
+</footer>
+
+{% endblock %}
