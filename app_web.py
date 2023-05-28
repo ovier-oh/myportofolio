@@ -32,7 +32,9 @@ def home():
 
 @app.route('/academic')
 def academic():
-    return render_template('academic.html')
+    img1 = os.path.join(app.config['UPLOAD_FOLDER'], 'Buap.jpg')
+    img2 = os.path.join(app.config['UPLOAD_FOLDER'], 'ittla.png')
+    return render_template('academic.html',user_image1=img1, user_img2 = img2)
 
 @app.route('/projects')
 def porjects():
